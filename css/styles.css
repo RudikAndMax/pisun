@@ -1,0 +1,88 @@
+body{
+    background-color: #fdfffa;
+    margin: 0;
+}
+header{
+    display: block;
+    width: 100%;
+    margin: 0;
+    color: darkslateblue;
+
+
+}
+header p{
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.devider {
+    width: 84%;
+    margin: 0 auto;
+
+}
+.left-bar{
+    width: 300px;
+    color: darkslateblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+.main {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;/*границу потом убрать, это для удобства проганья*/
+}
+.right-bar{
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+}
+.right-box{
+    margin: 0 auto;
+}
+.right-box .checkbox{
+    font-size: 30px;
+    color: darkslateblue;
+    margin: 10px auto;
+
+}
+.right-box input{
+    margin-top: 20px;
+    margin-left: 85px;
+
+}
+#final{
+    margin: 70px auto;
+    background-color: red; /*поменять на зеленый при правильном ответе*/
+    width: 200px;
+    height: 80px;
+}
+#final span{
+    font-size: 40px;
+    color: honeydew;
+}
+footer{
+    height: 80px;
+}
+footer p{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslateblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+footer p span{
+    font-size: 45px;
+}
